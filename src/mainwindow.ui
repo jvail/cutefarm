@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindowClass</class>
+ <widget class="QMainWindow" name="MainWindowClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>790</width>
+    <height>485</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">CuteFarm</string>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>40</width>
+    <height>40</height>
+   </size>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>790</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuDatei">
+    <property name="title">
+     <string>&amp;File</string>
+    </property>
+    <addaction name="actionNewDb"/>
+    <addaction name="actionLoadDb"/>
+    <addaction name="separator"/>
+    <addaction name="actionPrint"/>
+    <addaction name="actionFildImport"/>
+    <addaction name="separator"/>
+    <addaction name="actionQuit"/>
+   </widget>
+   <widget class="QMenu" name="menu_Einstellungen">
+    <property name="title">
+     <string>&amp;Data</string>
+    </property>
+    <addaction name="actionFarmData"/>
+    <addaction name="actionBasicData"/>
+    <addaction name="separator"/>
+    <addaction name="actionFilter"/>
+    <addaction name="actionRefresh"/>
+   </widget>
+   <widget class="QMenu" name="menu_Hilfe">
+    <property name="title">
+     <string>&amp;Help</string>
+    </property>
+    <addaction name="actionAboutCuteFarm"/>
+   </widget>
+   <widget class="QMenu" name="menu_Bearbeiten">
+    <property name="title">
+     <string>&amp;Edit</string>
+    </property>
+    <addaction name="actionAddAction"/>
+    <addaction name="actionCopyAction"/>
+    <addaction name="actionEditAction"/>
+    <addaction name="actionDeleteAction"/>
+    <addaction name="separator"/>
+    <addaction name="actionSettings"/>
+   </widget>
+   <widget class="QMenu" name="menuPlugins">
+    <property name="title">
+     <string>&amp;Plugins</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_Ansicht">
+    <property name="title">
+     <string>&amp;View</string>
+    </property>
+    <addaction name="actionActionsView"/>
+    <addaction name="actionCalendarView"/>
+    <addaction name="actionFieldView"/>
+    <addaction name="actionReportView"/>
+   </widget>
+   <addaction name="menuDatei"/>
+   <addaction name="menu_Bearbeiten"/>
+   <addaction name="menu_Ansicht"/>
+   <addaction name="menu_Einstellungen"/>
+   <addaction name="menuPlugins"/>
+   <addaction name="menu_Hilfe"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBarFile">
+   <property name="windowTitle">
+    <string>File</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionNewDb"/>
+   <addaction name="actionLoadDb"/>
+   <addaction name="actionPrint"/>
+  </widget>
+  <widget class="QToolBar" name="toolBarEdit">
+   <property name="windowTitle">
+    <string>Edit</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonIconOnly</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionAddAction"/>
+   <addaction name="actionCopyAction"/>
+   <addaction name="actionEditAction"/>
+   <addaction name="actionDeleteAction"/>
+   <addaction name="separator"/>
+   <addaction name="actionSettings"/>
+  </widget>
+  <widget class="QToolBar" name="toolBarData">
+   <property name="windowTitle">
+    <string>Data</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionFarmData"/>
+   <addaction name="actionBasicData"/>
+   <addaction name="separator"/>
+   <addaction name="actionFilter"/>
+   <addaction name="actionRefresh"/>
+  </widget>
+  <widget class="QToolBar" name="toolBarHelp">
+   <property name="windowTitle">
+    <string>Help</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QToolBar" name="toolBarQuit">
+   <property name="windowTitle">
+    <string>Quit</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionQuit"/>
+  </widget>
+  <action name="actionAddAction">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/add_action.png</normaloff>:/pic/add_action.png</iconset>
+   </property>
+   <property name="text">
+    <string>Add Action...</string>
+   </property>
+   <property name="toolTip">
+    <string>Add Action...</string>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionDeleteAction">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/remove_action.png</normaloff>:/pic/remove_action.png</iconset>
+   </property>
+   <property name="text">
+    <string>Delete Action...</string>
+   </property>
+   <property name="toolTip">
+    <string>Delete Action...</string>
+   </property>
+  </action>
+  <action name="actionFarmData">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/home.png</normaloff>:/pic/home.png</iconset>
+   </property>
+   <property name="text">
+    <string>Farm Data...</string>
+   </property>
+   <property name="toolTip">
+    <string>Farm Data...</string>
+   </property>
+  </action>
+  <action name="actionSettings">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/configure.png</normaloff>:/pic/configure.png</iconset>
+   </property>
+   <property name="text">
+    <string>Settings...</string>
+   </property>
+   <property name="toolTip">
+    <string>Settings...</string>
+   </property>
+  </action>
+  <action name="actionPrint">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/fileprint.png</normaloff>:/pic/fileprint.png</iconset>
+   </property>
+   <property name="text">
+    <string>Print...</string>
+   </property>
+   <property name="toolTip">
+    <string>Print...</string>
+   </property>
+  </action>
+  <action name="actionAboutCuteFarm">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/bug.png</normaloff>:/pic/bug.png</iconset>
+   </property>
+   <property name="text">
+    <string>About CuteFarm</string>
+   </property>
+   <property name="toolTip">
+    <string>About CuteFarm</string>
+   </property>
+  </action>
+  <action name="actionBasicData">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/basic.png</normaloff>:/pic/basic.png</iconset>
+   </property>
+   <property name="text">
+    <string>General Data...</string>
+   </property>
+   <property name="toolTip">
+    <string>General Data...</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/exit.png</normaloff>:/pic/exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>Quit</string>
+   </property>
+   <property name="toolTip">
+    <string>Quit</string>
+   </property>
+  </action>
+  <action name="actionLoadDb">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/folder_blue_open.png</normaloff>:/pic/folder_blue_open.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open Database...</string>
+   </property>
+   <property name="toolTip">
+    <string>Open Database...</string>
+   </property>
+  </action>
+  <action name="actionFilter">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/find.png</normaloff>:/pic/find.png</iconset>
+   </property>
+   <property name="text">
+    <string>Filter Actions...</string>
+   </property>
+   <property name="toolTip">
+    <string>Filter Actions...</string>
+   </property>
+  </action>
+  <action name="actionEditAction">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/edit_action.png</normaloff>:/pic/edit_action.png</iconset>
+   </property>
+   <property name="text">
+    <string>Edit Action...</string>
+   </property>
+   <property name="toolTip">
+    <string>Edit Action...</string>
+   </property>
+  </action>
+  <action name="actionFieldView">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/field.png</normaloff>:/pic/field.png</iconset>
+   </property>
+   <property name="text">
+    <string>Field</string>
+   </property>
+   <property name="toolTip">
+    <string>Field View</string>
+   </property>
+  </action>
+  <action name="actionCopyAction">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/copy_action.png</normaloff>:/pic/copy_action.png</iconset>
+   </property>
+   <property name="text">
+    <string>Copy Action...</string>
+   </property>
+   <property name="toolTip">
+    <string>Copy Action...</string>
+   </property>
+  </action>
+  <action name="actionFildImport">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/field.png</normaloff>:/pic/field.png</iconset>
+   </property>
+   <property name="text">
+    <string>Import Lots..</string>
+   </property>
+   <property name="toolTip">
+    <string>Import Fields and Lots...</string>
+   </property>
+  </action>
+  <action name="actionActionsView">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/mainview.png</normaloff>:/pic/mainview.png</iconset>
+   </property>
+   <property name="text">
+    <string>Action</string>
+   </property>
+   <property name="toolTip">
+    <string>Action View</string>
+   </property>
+  </action>
+  <action name="actionCalendarView">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/date.png</normaloff>:/pic/date.png</iconset>
+   </property>
+   <property name="text">
+    <string>Calendar</string>
+   </property>
+   <property name="toolTip">
+    <string>Calendar View</string>
+   </property>
+  </action>
+  <action name="actionPlugins">
+   <property name="text">
+    <string>Plugins</string>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionRefresh">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/reload.png</normaloff>:/pic/reload.png</iconset>
+   </property>
+   <property name="text">
+    <string>Refresh</string>
+   </property>
+   <property name="toolTip">
+    <string>Refresh</string>
+   </property>
+  </action>
+  <action name="actionNewDb">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/filenew.png</normaloff>:/pic/filenew.png</iconset>
+   </property>
+   <property name="text">
+    <string>New Database...</string>
+   </property>
+   <property name="toolTip">
+    <string>New Database...</string>
+   </property>
+  </action>
+  <action name="actionReportView">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/kchart.png</normaloff>:/pic/kchart.png</iconset>
+   </property>
+   <property name="text">
+    <string>Report</string>
+   </property>
+   <property name="toolTip">
+    <string>Report View</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="res/res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE qry>
+<qry version="1.0">
+	<description>Rotation</description>
+	<sql>SELECT fild_name AS Field, group_concat(year || '  ' || crop_use_name) AS Rotation
+FROM v_fild, crop_use, prod
+WHERE prod.fild_id=v_fild.fild_id
+AND prod.crop_use_id=crop_use.crop_use_id
+GROUP BY fild_name</sql>
+</qry>

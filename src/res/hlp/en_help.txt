@@ -1,0 +1,29 @@
+Getting started
+Before you can start to add actions at least the following resources must be available in the database:
+
+1. Crops, crop uses and cultivars 
+2. Lots (optional), fields and production per field 
+3. Workers 
+4. Operations 
+
+Farmland Administration
+Adding Fields
+You need to tag each field with a farm name. Usually you only enter an abbreviation for your farm once. This option allows you to manage farmland from different farms within one database. The field's name and number must be unique.
+
+Adding Lots
+If you don't use the option 'No Lots' in 'Settings/Misc.' you have to add lots first and later allocate the lot's area to the fields. The district and block might be a poor translation of German 'Gemarkung' and 'Flur'. They are used as top level identifiers to identify lots (one 'Gemarkung' contains many 'Flur'. One 'Flur' contains many lots). Anyway, they are optional. But you have to provide a unique lot number and probably lot sub number.
+Be aware that moving lots between fields throughout the years results in wrong nutrition calculations.
+
+Glossary
+Operation
+A machine, combined machinery or any other periodically documented task.
+
+Action
+An action with a certain date, a worker and allocated resources like seed, fertilizer etc.
+
+Action Type
+Just helps grouping the used resources. Facilitates adding and finding Actions. The database does not take care if you are trying to add 'senseless' actions e.g. drilling with a combined harvester.
+
+FAQ
+I can not change the area allocation of a specific field: Message 'Constraint failed'.
+If you have already added actions for this field (and harvest year) you can not reduce the size of the field below the highest area you ever entered for this field in 'Actions'.

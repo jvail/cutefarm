@@ -1,0 +1,62 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>CuteFarm Aide</title>
+</head>
+<body>
+<div>
+<h2>Début </h2>
+<p>Avant que vous ne puissiez commencer à ajouter des interventions, les données suivantes doivent être disponibles 
+dans la base de donnée:</p>
+    <ul>
+    <li>Cultures, Utilisation des cultures et production</li>
+    <li>Ilots (Optionnel), champs et production</li>
+    <li>Personnes travaillant sur la ferme</li>
+    <li>Opérations (Activités : Tracteur + semoir + Herse, etc ...)</li>
+    </ul>
+</div>
+<div>
+<h2>Gestion des surfaces</h2>
+    <h3>Ajouter un champ</h3>
+    <p>Il est nécessaire d'associer chaque champ à un nom d'exploitation. Habituellement, une abbréviation suffit.
+	Cette possibilité permet de gerer plusieurs exploitations avec la même base de donnée.
+	Le nom de champ et son numéro doivent être unique.</p>
+    
+    <h3>Ajouter un îlot</h3>
+    <p>Si l'option 'Pas d'îlots' de 'Paramètres' n'est pas utilisée, il faut d'abord ajouter des îlots et ensuite 
+	associer les surfaces d'îlots aux champs. Région et département sont optionnels et ne servent qu'à indentifier 
+	rapidement les champs. Cependant il faudra un numéro d'îlot ainsi qu'un sous numéro d'îlot uniques.</p>
+</div>
+<div>
+<h2>Glossaire</h2>
+
+    <h3>Operation</h3>
+    <p>Un tracteur, un engin, une combinaison de matériels ou toute tâche particulière.</p>
+    
+    <h3>Action</h3>
+    <p>Toute action faite à une certaine date, avec un individu en utiliant des ressources (semences, engrais, ...)</p>
+    
+    <h3>Type d'intervention</h3>
+    <p>Permet uniquement de regrouper plusieurs ressources. Facilite l'ajout et la recherche des interventions.
+	La base de donnée ne vérifiera pas la cohérence par ex. semer avec une moissonneuse.</p>
+    
+    <h3>UGB</h3>
+    <p>L'Unité Gros Bétail est une unité utilisée en statistique pour unifier les différentes catégories d'animaux 
+	en se basant sur leurs besoins alimentaires.</p>
+    
+    <h3>UTA</h3>
+    <p>L'Unité de Travail Annuel correspond au travail agricole effectué par une personne employé à temps plein.
+	Elle équivaut à 2 200 heures.</p>
+    
+<h2>FAQ</h2>
+
+    <ul>
+    <li><h4>Il n'est pas possible de changer l'affectation d'un champ : Message 'Constraint failed'</h4>
+    <p>Si des interventions ont déjà été ajoutées sur ce champ et cette année il est impossible de diminuer la taille 
+	du champ en dessous de la plus grande valeur de surface enregistrée dans les interventions.</p></li>
+    </ul>
+</div>
+
+</body>
+</html>
+

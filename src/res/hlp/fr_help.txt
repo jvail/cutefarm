@@ -1,0 +1,48 @@
+Avant que vous ne puissiez commencer à ajouter des interventions, les données suivantes doivent être disponibles 
+dans la base de donnée :
+
+    1. Cultures, Utilisation des cultures et production
+    2. Ilots (Optionnel), champs et production
+    3. Personnes travaillant sur la ferme
+    4. Opérations (Activités : Tracteur + semoir + Herse, etc ...)
+
+
+Gestion des surfaces :
+
+	Ajouter un champ
+	Il est nécessaire d'associer chaque champ à un nom d'exploitation. Habituellement, une abbréviation suffit.
+	Cette possibilité permet de gerer plusieurs exploitations avec la même base de donnée.
+	Le nom de champ et son numéro doivent être unique.
+
+	Ajouter un îlot
+	Si l'option 'Pas d'îlots' de 'Paramètres' n'est pas utilisée, il faut d'abord ajouter des îlots et ensuite 
+	associer les surfaces d'îlots aux champs. Région et département sont optionnels et ne servent qu'à indentifier 
+	rapidement les champs. Cependant il faudra un numéro d'îlot ainsi qu'un sous numéro d'îlot uniques.
+
+
+Glossaire :
+
+	Operation
+	Un tracteur, un engin, une combinaison de matériels ou toute tâche particulière.
+
+	Intervention
+	Toute action faite à une certaine date, avec un individu en utiliant des ressources (semences, engrais, ...)
+
+	Type d'intervention
+	Permet uniquement de regrouper plusieurs ressources. Facilite l'ajout et la recherche des interventions.
+	La base de donnée ne vérifiera pas la cohérence par ex. semer avec une moissonneuse.
+
+	UGB
+	L'Unité Gros Bétail est une unité utilisée en statistique pour unifier les différentes catégories d'animaux 
+	en se basant sur leurs besoins alimentaires.
+
+	UTA
+	L'Unité de Travail Annuel correspond au travail agricole effectué par une personne employé à temps plein.
+	Elle équivaut à 2 200 heures.
+
+
+FAQ
+
+	1. Il n'est pas possible de changer l'affectation d'un champ : Message 'Constraint failed'
+	Si des interventions ont déjà été ajoutées sur ce champ et cette année il est impossible de diminuer la taille 
+	du champ en dessous de la plus grande valeur de surface enregistrée dans les interventions.

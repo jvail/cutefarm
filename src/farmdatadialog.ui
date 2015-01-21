@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FarmDataDialogClass</class>
+ <widget class="QDialog" name="FarmDataDialogClass">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>687</width>
+    <height>466</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Farm Data</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="res/res.qrc">
+    <normaloff>:/pic/home.png</normaloff>:/pic/home.png</iconset>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>true</bool>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_8">
+   <property name="spacing">
+    <number>9</number>
+   </property>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QPushButton" name="pushButtonFarm">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="toolTip">
+        <string>Farm</string>
+       </property>
+       <property name="icon">
+        <iconset resource="res/res.qrc">
+         <normaloff>:/pic/home.png</normaloff>:/pic/home.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonWork">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="toolTip">
+        <string>Worker</string>
+       </property>
+       <property name="icon">
+        <iconset resource="res/res.qrc">
+         <normaloff>:/pic/worker.png</normaloff>:/pic/worker.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonFild">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="toolTip">
+        <string>Farmland</string>
+       </property>
+       <property name="icon">
+        <iconset resource="res/res.qrc">
+         <normaloff>:/pic/field.png</normaloff>:/pic/field.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonAnimGrp">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="toolTip">
+        <string>Animals</string>
+       </property>
+       <property name="icon">
+        <iconset resource="res/res.qrc">
+         <normaloff>:/pic/cow.png</normaloff>:/pic/cow.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonOprt">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="toolTip">
+        <string>Operations</string>
+       </property>
+       <property name="icon">
+        <iconset resource="res/res.qrc">
+         <normaloff>:/pic/action.png</normaloff>:/pic/action.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QToolButton" name="toolButtonAdd">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="icon">
+        <iconset resource="res/res.qrc">
+         <normaloff>:/pic/home.png</normaloff>:/pic/home.png</iconset>
+       </property>
+       <property name="popupMode">
+        <enum>QToolButton::InstantPopup</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="toolButtonRemove">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="toolTip">
+        <string>Delete current row</string>
+       </property>
+       <property name="icon">
+        <iconset resource="res/res.qrc">
+         <normaloff>:/pic/trash.png</normaloff>:/pic/trash.png</iconset>
+       </property>
+       <property name="popupMode">
+        <enum>QToolButton::InstantPopup</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="toolButtonIsActive">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="toolTip">
+        <string>Deactivate current row</string>
+       </property>
+       <property name="icon">
+        <iconset resource="res/res.qrc">
+         <normaloff>:/pic/wizard.png</normaloff>:/pic/wizard.png</iconset>
+       </property>
+       <property name="popupMode">
+        <enum>QToolButton::InstantPopup</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="pageFarm">
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="margin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QGroupBox" name="groupBoxAddr">
+         <property name="title">
+          <string>Address</string>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+         <layout class="QFormLayout" name="formLayout_2">
+          <item row="0" column="0">
+           <widget class="QLabel" name="labelFarmName">
+            <property name="text">
+             <string>&amp;Farm Name:</string>
+            </property>
+            <property name="textFormat">
+             <enum>Qt::AutoText</enum>
+            </property>
+            <property name="buddy">
+             <cstring>lineEditFarmName</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="lineEditFarmName"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="labelFarmStr">
+            <property name="text">
+             <string>&amp;Street:</string>
+            </property>
+            <property name="buddy">
+             <cstring>lineEditFarmStr</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="lineEditFarmStr"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="labelFarmCityCode">
+            <property name="text">
+             <string>&amp;Town:</string>
+            </property>
+            <property name="buddy">
+             <cstring>lineEditFarmCityCode</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="lineEditFarmCityCode"/>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="labelFarmNumb">
+            <property name="text">
+             <string>Farm &amp;Ident. No.</string>
+            </property>
+            <property name="buddy">
+             <cstring>lineEditFarmNumb</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QLineEdit" name="lineEditFarmNumb"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBoxOv">
+         <property name="title">
+          <string>Key Figures</string>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+         <layout class="QFormLayout" name="formLayout">
+          <property name="fieldGrowthPolicy">
+           <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+          </property>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label">
+            <property name="text">
+             <string>Total Farmland:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="Label" name="lineEditLn">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>Worker Units/ha:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="Label" name="lineEditAkh">
+            <property name="frameShadow">
+             <enum>QFrame::Sunken</enum>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>Animal Units/ha:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="Label" name="lineEditGv">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0" colspan="2">
+           <spacer name="verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="pageWork">
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <property name="margin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QTableView" name="tableViewWorker">
+         <property name="selectionBehavior">
+          <enum>QAbstractItemView::SelectRows</enum>
+         </property>
+         <property name="sortingEnabled">
+          <bool>true</bool>
+         </property>
+         <property name="wordWrap">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="pageFild">
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <property name="margin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QTabWidget" name="tabWidgetFieldLot">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <widget class="QWidget" name="tabOverView">
+          <attribute name="title">
+           <string>Overview</string>
+          </attribute>
+          <layout class="QVBoxLayout" name="verticalLayout_10">
+           <item>
+            <widget class="QTableView" name="tableOverView">
+             <property name="editTriggers">
+              <set>QAbstractItemView::NoEditTriggers</set>
+             </property>
+             <property name="selectionMode">
+              <enum>QAbstractItemView::NoSelection</enum>
+             </property>
+             <property name="sortingEnabled">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="tabLot">
+          <attribute name="title">
+           <string>Lots</string>
+          </attribute>
+          <layout class="QVBoxLayout" name="verticalLayout_9">
+           <item>
+            <widget class="QTableView" name="tableViewLot">
+             <property name="selectionBehavior">
+              <enum>QAbstractItemView::SelectRows</enum>
+             </property>
+             <property name="sortingEnabled">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="tabField">
+          <attribute name="title">
+           <string>Fields</string>
+          </attribute>
+          <layout class="QVBoxLayout" name="verticalLayout_7">
+           <item>
+            <widget class="QTableView" name="tableViewField">
+             <property name="selectionBehavior">
+              <enum>QAbstractItemView::SelectRows</enum>
+             </property>
+             <property name="sortingEnabled">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="tabEnv">
+          <attribute name="title">
+           <string>Environmental Program</string>
+          </attribute>
+          <layout class="QVBoxLayout" name="verticalLayout_3">
+           <item>
+            <widget class="QTableView" name="tableViewEnvSchemas">
+             <property name="selectionMode">
+              <enum>QAbstractItemView::SingleSelection</enum>
+             </property>
+             <property name="selectionBehavior">
+              <enum>QAbstractItemView::SelectRows</enum>
+             </property>
+             <property name="sortingEnabled">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="tabProd">
+          <attribute name="title">
+           <string>Production</string>
+          </attribute>
+          <layout class="QVBoxLayout" name="verticalLayout_11">
+           <item>
+            <widget class="QTableView" name="tableViewProd">
+             <property name="selectionBehavior">
+              <enum>QAbstractItemView::SelectRows</enum>
+             </property>
+             <property name="sortingEnabled">
+              <bool>true</bool>
+             </property>
+             <property name="wordWrap">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="pageAnimGrp">
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <property name="margin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QTableView" name="tableViewAnim">
+         <property name="selectionBehavior">
+          <enum>QAbstractItemView::SelectRows</enum>
+         </property>
+         <property name="sortingEnabled">
+          <bool>true</bool>
+         </property>
+         <property name="wordWrap">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="pageOprt">
+      <layout class="QVBoxLayout" name="verticalLayout_6">
+       <property name="margin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QTableView" name="tableViewOprt">
+         <property name="selectionBehavior">
+          <enum>QAbstractItemView::SelectRows</enum>
+         </property>
+         <property name="sortingEnabled">
+          <bool>true</bool>
+         </property>
+         <property name="wordWrap">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Close|QDialogButtonBox::Help|QDialogButtonBox::Reset|QDialogButtonBox::Save</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+  <action name="actionAddWork">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/worker.png</normaloff>:/pic/worker.png</iconset>
+   </property>
+   <property name="text">
+    <string>Add Worker</string>
+   </property>
+   <property name="toolTip">
+    <string>Add Worker</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">+</string>
+   </property>
+  </action>
+  <action name="actionAddAnimGrp">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/cow.png</normaloff>:/pic/cow.png</iconset>
+   </property>
+   <property name="text">
+    <string>Add Animal Group</string>
+   </property>
+   <property name="toolTip">
+    <string>Add Animal Group</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">+</string>
+   </property>
+  </action>
+  <action name="actionAddOprt">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/action.png</normaloff>:/pic/action.png</iconset>
+   </property>
+   <property name="text">
+    <string>Add Operation</string>
+   </property>
+   <property name="toolTip">
+    <string>Add Operation</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">+</string>
+   </property>
+  </action>
+  <action name="actionAddProd">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/crop.png</normaloff>:/pic/crop.png</iconset>
+   </property>
+   <property name="text">
+    <string>Add Production</string>
+   </property>
+   <property name="toolTip">
+    <string>Add Production</string>
+   </property>
+  </action>
+  <action name="actionAddNewHarvYear">
+   <property name="text">
+    <string>Create New Harvest Year</string>
+   </property>
+   <property name="toolTip">
+    <string>Create New Harvest Year</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true"/>
+   </property>
+  </action>
+  <action name="actionLotxFild">
+   <property name="text">
+    <string>Area Allocation</string>
+   </property>
+   <property name="toolTip">
+    <string>Area Allocation</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true"/>
+   </property>
+  </action>
+  <action name="actionFildSep">
+   <property name="text">
+    <string>Divide Field</string>
+   </property>
+   <property name="toolTip">
+    <string>Divide Field</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true"/>
+   </property>
+  </action>
+  <action name="actionFildUnion">
+   <property name="text">
+    <string>Unite Fields</string>
+   </property>
+   <property name="toolTip">
+    <string>Unite Fields</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true"/>
+   </property>
+  </action>
+  <action name="actionAddFild">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/field.png</normaloff>:/pic/field.png</iconset>
+   </property>
+   <property name="text">
+    <string>Add Field</string>
+   </property>
+   <property name="toolTip">
+    <string>Add Field</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">+</string>
+   </property>
+  </action>
+  <action name="actionAddLot">
+   <property name="text">
+    <string>Add Lot</string>
+   </property>
+   <property name="toolTip">
+    <string>Add Lot</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true"/>
+   </property>
+  </action>
+  <action name="actionAddEnvSchema">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/eco.png</normaloff>:/pic/eco.png</iconset>
+   </property>
+   <property name="text">
+    <string>Add Env. Program</string>
+   </property>
+   <property name="toolTip">
+    <string>Add Env. Program</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>Label</class>
+   <extends>QLabel</extends>
+   <header>label.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="res/res.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButtonFarm</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>FarmDataDialogClass</receiver>
+   <slot>changeCurrentIndex(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>44</x>
+     <y>32</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>34</x>
+     <y>68</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonWork</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>FarmDataDialogClass</receiver>
+   <slot>changeCurrentIndex(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>88</x>
+     <y>41</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>91</x>
+     <y>70</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonFild</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>FarmDataDialogClass</receiver>
+   <slot>changeCurrentIndex(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>139</x>
+     <y>31</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>145</x>
+     <y>86</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonAnimGrp</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>FarmDataDialogClass</receiver>
+   <slot>changeCurrentIndex(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>187</x>
+     <y>33</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>396</x>
+     <y>73</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonOprt</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>FarmDataDialogClass</receiver>
+   <slot>changeCurrentIndex(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>232</x>
+     <y>31</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>328</x>
+     <y>26</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>changeCurrentIndex(bool)</slot>
+ </slots>
+</ui>

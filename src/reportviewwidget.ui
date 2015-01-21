@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ReportViewWidgetClass</class>
+ <widget class="QWidget" name="ReportViewWidgetClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>692</width>
+    <height>468</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">report</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <widget class="QSplitter" name="splitter">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <widget class="QSplitter" name="splitterTabQryStrg">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QTreeView" name="dirView">
+       <property name="contextMenuPolicy">
+        <enum>Qt::CustomContextMenu</enum>
+       </property>
+       <property name="editTriggers">
+        <set>QAbstractItemView::AnyKeyPressed</set>
+       </property>
+       <property name="dragEnabled">
+        <bool>true</bool>
+       </property>
+       <property name="dragDropOverwriteMode">
+        <bool>false</bool>
+       </property>
+       <property name="dragDropMode">
+        <enum>QAbstractItemView::InternalMove</enum>
+       </property>
+       <property name="alternatingRowColors">
+        <bool>true</bool>
+       </property>
+       <property name="selectionMode">
+        <enum>QAbstractItemView::ExtendedSelection</enum>
+       </property>
+       <property name="sortingEnabled">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QTabWidget" name="tabWidget">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>350</height>
+        </size>
+       </property>
+       <property name="tabPosition">
+        <enum>QTabWidget::North</enum>
+       </property>
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="tabEditor">
+        <attribute name="title">
+         <string>SQL Editor</string>
+        </attribute>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QTextEdit" name="textEditSql">
+           <property name="lineWrapMode">
+            <enum>QTextEdit::NoWrap</enum>
+           </property>
+           <property name="acceptRichText">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>SQL Error</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="Line" name="line">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEditError">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>60</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="tab">
+        <attribute name="title">
+         <string>Database Schema</string>
+        </attribute>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QLabel" name="label">
+             <property name="text">
+              <string>Tables:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="cBTables"/>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEditSchema">
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="lineWrapMode">
+            <enum>QTextEdit::NoWrap</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="tabComt">
+        <attribute name="title">
+         <string>File Description</string>
+        </attribute>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QTextEdit" name="textEditComt">
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QTableView" name="resultView">
+      <property name="sortingEnabled">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+  <action name="actionEditQry">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/edit_action.png</normaloff>:/pic/edit_action.png</iconset>
+   </property>
+   <property name="text">
+    <string>Edit</string>
+   </property>
+   <property name="toolTip">
+    <string>Edit</string>
+   </property>
+  </action>
+  <action name="actionSaveQry">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/filesave.png</normaloff>:/pic/filesave.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+   <property name="toolTip">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionRunQryFromFile">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/compfile.png</normaloff>:/pic/compfile.png</iconset>
+   </property>
+   <property name="text">
+    <string>Execute</string>
+   </property>
+   <property name="toolTip">
+    <string>Execute</string>
+   </property>
+  </action>
+  <action name="actionNewFolder">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/folder_new.png</normaloff>:/pic/folder_new.png</iconset>
+   </property>
+   <property name="text">
+    <string>New Folder</string>
+   </property>
+   <property name="toolTip">
+    <string>New Folder</string>
+   </property>
+  </action>
+  <action name="actionNewQry">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/kchart_chrt.png</normaloff>:/pic/kchart_chrt.png</iconset>
+   </property>
+   <property name="text">
+    <string>New Query</string>
+   </property>
+   <property name="toolTip">
+    <string>New Query</string>
+   </property>
+  </action>
+  <action name="actionCloseQry">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/fileclose.png</normaloff>:/pic/fileclose.png</iconset>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+   <property name="toolTip">
+    <string>Close</string>
+   </property>
+  </action>
+  <action name="actionRunQryFromText">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/compfile.png</normaloff>:/pic/compfile.png</iconset>
+   </property>
+   <property name="text">
+    <string>Execute</string>
+   </property>
+   <property name="toolTip">
+    <string>Execute</string>
+   </property>
+  </action>
+  <action name="actionDeleteQry">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/remove_action.png</normaloff>:/pic/remove_action.png</iconset>
+   </property>
+   <property name="text">
+    <string>Delete</string>
+   </property>
+   <property name="toolTip">
+    <string>Delete</string>
+   </property>
+  </action>
+  <action name="actionCSV">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/spread.png</normaloff>:/pic/spread.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save Table as csv...</string>
+   </property>
+  </action>
+  <action name="actionDeleteFolder">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/pic/remove.png</normaloff>:/pic/remove.png</iconset>
+   </property>
+   <property name="text">
+    <string>Delete Folder</string>
+   </property>
+   <property name="toolTip">
+    <string>Delete Folder</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="res/res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

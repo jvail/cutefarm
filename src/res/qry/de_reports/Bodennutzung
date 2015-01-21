@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE qry>
+<qry version="1.0" >
+    <description>Übersicht über die Bodennutzung in allen Jahren</description>
+    <sql>SELECT year_of_harvest AS Erntejahr, fild_use_name AS Bodennutzung, total(lot_x_fild_size) AS Fläche
+FROM fild_use, fild, lot_x_fild
+WHERE fild_use.fild_use_id=fild.fild_use_id
+AND fild.fild_id=lot_x_fild.fild_id
+GROUP BY fild_use_name, year_of_harvest
+ORDER BY year_of_harvest DESC</sql>
+</qry>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CalendarViewWidgetClass</class>
+ <widget class="QWidget" name="CalendarViewWidgetClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>598</width>
+    <height>498</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">CalendarViewWidget</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="CalendarWidget" name="calendarWidget"/>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>CalendarWidget</class>
+   <extends>QCalendarWidget</extends>
+   <header>calendarwidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="res/res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

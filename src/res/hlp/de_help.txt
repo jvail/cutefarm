@@ -1,0 +1,57 @@
+Bevor Arbeitsgänge angelegt werden können müssen mindestens folgende Daten vorhanden sein:
+
+    1. Früchte, Nutzungen und Sorten
+    2. Flurstücke (optional), Schläge und Produktion
+    3. Mitarbeiter
+    4. Aktionen
+
+Flächenverwaltung:
+
+    Import
+    Ein Import von Schlägen und Flurstücken ist im Moment nur für FIONA (Flächeninformation und Online-Antrag 
+    für Baden-Württemberg) verfügbar. Möglicherweise funktioniert der Import auch mit anderen System, die einen
+    Export als csv Datei ermöglichen. Dies wurde aber nicht getestet.
+    
+    Anlegen von Schlägen
+    Es muss ein Betrieb angegeben werden (in den meisten Fällen geben Sie einfach ein Kürzel für Ihren Betrieb an).
+    Es besteht damit die Möglichkeit Flächen verschiedener Betriebe in einer Datenbank zu verwalten.
+    Der Schlagname und die Schlagnummer müssen eindeutig sein.
+    
+    Anlegen von Flurstücken
+    Wenn Sie die Option 'ohne Flurstücke' in Einstellungen/Sonstiges' ausgeschaltet haben, müssen Flurstücke angelegt werden.
+    Die Flächen der Flurstücke können über die 'Flächenzuordnung' beliebig auf die Schläge verteilt werden.
+    Gemarkung und Flur sind optional. Es muss aber eine eindeutige Flurstücksnummer/Unternummer vergeben werden.
+
+Glossar:
+
+    Aktion
+    Eine beliebig benannte Maschine, Kombination oder sonstige Aktivität, die regelmäßig dokumentiert wird.
+    
+    Aktionstyp
+    Nur eine Hilfskonstruktion, um den Ressourceneinsatz unter Sammelbegriffen zusammenzufassen, zu gruppieren.
+    Grundsätzlich können mit eingetragenen Aktionen beliebige Aktionstypen verbunden werden (Arbeitsgang).
+    Auch solche, die (jedenfalls beim gegenwärtigen Stand der Technik) unsinnig sein können:
+    z.B. Säen mit einem Mähdrescher.
+    Da (1.) der Programmieraufwand zur Prüfung, ob Arbeitsgänge "sinnvoll" sind oder nicht zu hoch ist, 
+    (2.) dies durch neue Techniken/Rahmenbedingungen sich verändern kann und (3.) das Programm möglichst flexibel
+    bleiben soll ist man hier völlig frei einzugeben, was jedem selbst sinnvoll erscheint und technisch möglich ist.
+    
+    Arbeitsgang
+    Eine Aktion zu einem bestimmten Datum und von einer bestimmten Person ausgeführt. Kann Ressourcen wie
+    Saatgut, Düngemittel etc. beanspruchen. Arbeitsgänge können auch bodenunabhängig sein (z.B. Reparaturen).
+    
+FAQ
+
+    1. Ich kann die Flächenzuordnung für einen Schlag nicht verändern: Meldung 'Constraint failed'.
+    Wenn ein Arbeitsgang angelegt wurde auf 'Schlag1' und dabei eine Fläche von z.B. 5 ha bearbeitet wurde, kann die
+    Gesamtfläche des Schlages in diesem Erntejahr nicht mehr kleiner als 5 ha werden.
+    
+    2. Wie kann ich die in FIONA erstellten Shapes anzeigen?
+    Vor dem Import muss die Projektion (Einstellungen->Raumdaten) auf "31467 DHDN /Gaus Krüger zone 3" eingestellt werden.
+    
+    3. Beim Import der csv Datei aus FIONA erhalte ich immer die Fehlermeldung 'Constraint failed'.
+    Häufig tritt dieser Fehler auf, wenn ein Flurstück zwei verschiedene Nutzungen hat: z.B. WEIDE und WIESE.
+    In der CuteFarm darf jedes Flurstück nur eine Nutzung haben. Also entweder nur WEIDE oder nur WIESE.
+    
+    
+

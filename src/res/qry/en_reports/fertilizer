@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE qry>
+<qry version="1.0" >
+    <description>All fertiliser actions</description>
+    <sql>SELECT fert_name AS Fertlizer, actn_fert_amt * sum(actn_fild.area) AS Amount, year_of_harvest AS Year
+FROM fert, actn_fert, actn_fild, actn
+WHERE actn.actn_id=actn_fert.actn_id
+AND actn.actn_id=actn_fild.actn_id
+AND actn_fert.fert_id=fert.fert_id
+GROUP BY year_of_harvest, actn_fert.fert_id</sql>
+</qry>

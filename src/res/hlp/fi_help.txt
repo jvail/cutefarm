@@ -1,0 +1,28 @@
+Käytön aloittaminen
+Ennen kuin voit aloittaa toimenpiteiden lisäämisen ainakin seuraavien tietojen pitää olla tietokannassa:
+
+1. Viljelykasvit, pellonkäyttö ja lajikkeet
+2. Peruslohkot (valinnainen), kasvulohkot ja tuotanto (kasvu-)lohkoa kohden
+3. Työntekijät
+4. Toimenpidetyypit
+
+Peltomaan hallinta
+Peltolohkojen lisääminen
+Sinun pitää yhdistää maatilan nimi jokaiseen kasvulohkoon. Yleensä riittää syöttää maatilan lyhenne kerran. Näin voit hallita useamman maatilan peltoja yhdessä tietokannassa. Jokaisella kasvulohkolla pitää olla yksilöllinen nimi ja numero.
+
+Peruslohkojen lisääminen
+Jos et ole valinnut 'Ei peruslohkoja' asetusta sinun pitää ensin lisätä peruslohkoja ja sitten oosoittaa niiden pinta-ala kasvulohkoille. Jokainen peruslohko tarvitsee yksilöllisen tunnuksen.
+
+Sanasto
+Toimenpide
+Työkone tai säännöllinen tehtävä.
+
+Toimenpide
+Toimenpide on myös ajoitettu tehtävä, työntekijä tai resurssi kuten siemen tai lannoite.
+
+Toimenpideluokat
+Toimenpideluokat auttavat resurssien ryhmittämisessä. Siitä on hyötyätehtävien lisäämisessä ja löytämisessa. Tietokanta mahdollistaa myös epäloogiset yhdistelmät kuten äestämisen leikkuupuimurilla.
+
+UKK
+En pysty myyttamaan tietyn kasvulohkon pinta-alaa: Virheilmoitus 'Constraint failed'.
+Jos olet jo lisännyt toimenpiteitä tietylle kasvulohkolle, et pysty pienentämään sen pinta-alaa pienemmäksi kuin suurin pinta-ala, johon toimenpiteitä on kohdistettu sillä kasvulohkolla.

@@ -1,0 +1,71 @@
+
+body {
+    font-size:100%;
+    font-family:"Arial", Arial, sans-serif;
+    width:100%;
+}
+
+table {
+    border-collapse:collapse;
+    margin-left:0px;
+    padding:0px;
+    width:100%;
+}
+
+#header {
+    font-size:14pt;
+    font-weight:600;
+    align: center;
+}
+
+td.oprt {
+    background-color:LightGray;
+    font-size:10pt;
+    font-weight:600;
+}
+
+td.oprt_comt {
+    background-color:LightGray;
+}
+
+p.oprt_comt {
+    font-size:6pt;
+    font-weight:600;
+}
+
+td.fild {
+    background-color:#FDFDFD;
+    font-size:8pt;
+    font-weight:600;
+}
+
+td.fild_comt {
+    background-color:#FDFDFD;
+}
+
+p.fild_comt {
+    font-size:6pt;
+    font-weight:600;
+}
+
+td.sum {
+    background-color:#FDFDFD;
+    font-size:8pt;
+    font-weight:600;
+    border-width:1px;
+    border-color:red;
+}
+
+td.row {
+    font-size:7pt;
+    font-weight:600;
+}
+
+td.comt {
+    font-size:6pt;
+}
+
+
+
+
+

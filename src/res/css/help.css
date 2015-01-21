@@ -1,0 +1,33 @@
+
+body {
+    background: #FFFFFF;
+    color: #363534;
+}
+
+div {
+    margin-bottom:2.6em;
+
+}
+h1 {
+    font-size:12px;
+    margin-bottom:0.7em;
+    font-weight:600;
+}
+
+h2 {
+    font-size:11px;
+    margin-bottom:0.2em;
+    font-weight:600;
+}
+
+h3 {
+    font-size:1.0em;
+    font-weight:600;
+    margin-bottom:0.2em;
+}
+
+p {
+    font-size:1.1em;
+    margin-top:0.6em;
+    
+}

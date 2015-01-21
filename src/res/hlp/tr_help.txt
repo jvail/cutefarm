@@ -1,0 +1,27 @@
+﻿Başlarken
+
+Programı kullanmaya başlamak için öncelikle aşağıdaki veriler veritabanına girilmelidir:
+
+1. Bitkiler, bitki kullanımı ve çeşitleri,
+2. Parseller (isteğe bağlı), tarlalar ve tarlalardaki üretim,
+3. İşçiler,
+4. Faaliyetler.
+
+Tarım arazilerinin idaresi
+
+Tarla ekleme
+Tarlaların mevcut olduğu çiftliklerin adlarının veya kısaltmalarının girilmesi gereklidir. Bu tek veritabanı içinde farklı çiftliklerdeki tarım arazilerini yönetmenize izin verir. Tarla isimleri ve numaraları farklı olmalıdır.
+
+Parsel ekleme
+Tarlalara parsel ekleyebilmek için "Düzenle/Ayarlar/Diğer" altında "Parsel" seçeneğinin işaretli olması gereklidir. "Bölge" ve "Mahal" alanlarının belirtilmesi isteğe bağlıdır ancak farklı bir parsel ve alt parsel numarası verilmesi gereklidir.
+
+Tanımlar
+
+Çalışma
+Bir makine, kombine makine veya herhangi bir periyodik görevi belirtir.
+
+Faaliyet
+Belirli bir tarihte, işçiler ile yapılan tohumlama, gübreleme vb. gibi işlemleri belirtir.
+
+Faaliyet tipi
+Kullanılan kaynakları bulmaya yardımcı olur. Faaliyet ekleme ve bulma işlemlerini kolaylaştırır.
