@@ -21,8 +21,7 @@ Credits
 - Italian translation by Eugenio Fasser
 - Russian translation by Grigorij Pilipenko
 
-Tulliana 2.0 iconset by M.Umut Pulat
-Logo 'Ladybug' by Ganzio Design
+Tulliana 2.0 iconset by M.Umut Pulat and 'Ladybug' by Ganzio Design
 
 Licence
 -------
