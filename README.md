@@ -1,7 +1,7 @@
 # cutefarm
 A farm management application.
 
-###### I stopped working on this project. Since it was initially a way to learn Qt/C++ some parts are of poor quality. They would require a complete rewrite and I am not even sure if it compiles with Qt5. However, probably someone is interested to pick it up, re-use various parts.
+_Unmaintained. Since it was initially a way to learn Qt/C++ some parts are of poor quality. They would require a complete rewrite and I am not even sure if it compiles with Qt5. However, probably someone is interested to pick it up, re-use various parts._
 
 Translations
 ------------
