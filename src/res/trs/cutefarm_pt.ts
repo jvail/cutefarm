@@ -18,7 +18,7 @@
     <message>
         <location filename="../../aboutdlg/aboutdlg.cpp" line="26"/>
         <source>Supported by %1</source>
-        <translation>Suportado por %1 </translation>
+        <translation>Apoiado por %1</translation>
     </message>
 </context>
 <context>
@@ -40,12 +40,12 @@
         <location filename="../../actionwizard.cpp" line="271"/>
         <location filename="../../actionwizard.cpp" line="971"/>
         <source>Add Action</source>
-        <translation>Adicionar Intervenção</translation>
+        <translation>Adicionar Tarefa</translation>
     </message>
     <message>
         <location filename="../../actionwizard.cpp" line="281"/>
         <source>Edit Action</source>
-        <translation>Editar Intervenção</translation>
+        <translation>Editar Tarefa</translation>
     </message>
     <message>
         <location filename="../../actionwizard.cpp" line="569"/>
@@ -76,12 +76,12 @@
     <message>
         <location filename="../../actionwizard.cpp" line="735"/>
         <source>Tillage</source>
-        <translation>Lavoura</translation>
+        <translation>Lavrar</translation>
     </message>
     <message>
         <location filename="../../actionwizard.cpp" line="753"/>
         <source>Grassland Action</source>
-        <translation>Intervenção em Pasto</translation>
+        <translation>Tarefa no Pasto</translation>
     </message>
     <message>
         <location filename="../../actionwizard.cpp" line="772"/>
@@ -96,22 +96,22 @@
     <message>
         <location filename="../../actionwizard.cpp" line="823"/>
         <source>Drilling&amp;Planting</source>
-        <translation>Lavrar&amp;Plantar</translation>
+        <translation>Semear&amp;Plantar</translation>
     </message>
     <message>
         <location filename="../../actionwizard.cpp" line="848"/>
         <source>Harvest</source>
-        <translation>Colheita</translation>
+        <translation>Colher</translation>
     </message>
     <message>
         <location filename="../../actionwizard.cpp" line="873"/>
         <source>Animal Action</source>
-        <translation>Intervenção Animal</translation>
+        <translation>Tarefa com Animal</translation>
     </message>
     <message>
         <location filename="../../actionwizard.cpp" line="896"/>
         <source>Misc. Action</source>
-        <translation>Intervenções Diversas</translation>
+        <translation>Tarefas Diversas</translation>
     </message>
     <message>
         <location filename="../../actionwizard.cpp" line="913"/>
@@ -121,19 +121,19 @@
     <message>
         <location filename="../../actionwizard.cpp" line="1021"/>
         <source>The presented wizard pages depend on selected action types.</source>
-        <translation>As páginas de ajuda inteligente apresentadas dependem do tipo de intervenção seleccionada.</translation>
+        <translation>As páginas de ajuda inteligente apresentadas dependem do tipo de tarefa seleccionada.</translation>
     </message>
     <message>
         <location filename="../../actionwizard.cpp" line="1025"/>
         <source>If you like to add an action, which does not depend on a specific field (soil) e.g. a machine repair do not select anything else but &apos;Misc. Action&apos; on the previous page.
 If not the area of each selected field must be &gt; 0.00.</source>
-        <translation>Se deseja adicionar uma intervenção que não depende de um terreno específico (solo), ex. reparação de uma máquina não seleccione nada excepto &apos;Intervenções Diversas&apos; na página anterior.
+        <translation>Se deseja adicionar uma tarefa que não depende de um terreno específico (solo), ex. reparação de uma máquina não seleccione nada excepto &apos;Tarefas Diversas&apos; na página anterior.
 Senão a área de cada terreno seleccionado deve ser &gt; 0.00.</translation>
     </message>
     <message>
         <location filename="../../actionwizard.cpp" line="1031"/>
         <source>Add Comments - Action and/or field specific.</source>
-        <translation>Adicionar Comentários - Específicos de intervenção/terreno.</translation>
+        <translation>Adicionar Comentários - Específicos de tarefa e/ou terreno.</translation>
     </message>
     <message>
         <location filename="../../actionwizard.cpp" line="1034"/>
@@ -143,13 +143,14 @@ Senão a área de cada terreno seleccionado deve ser &gt; 0.00.</translation>
     <message>
         <location filename="../../actionwizard.cpp" line="1038"/>
         <source>At least one seed must be selected and each seed amount must be &gt; 0. If you are sowing mixtures you can create them in the &apos;General Data&apos; Dialog.</source>
-        <translation>Deve seleccionar pelo menos uma sementeira e o número de sementes deve ser &gt;0. Se está a semear misturas pode criá-las no Diálogo de &apos;Dados Gerais&apos;.</translation>
+        <translation>Deve seleccionar pelo menos uma semente e o número de sementes deve ser &gt;0. Se está a semear misturas pode criá-las no Diálogo de &apos;Dados Gerais&apos;.</translation>
     </message>
     <message>
         <location filename="../../actionwizard.cpp" line="1043"/>
         <source>At least one crop usage must be selected and each harvested amount must be &gt; 0.
 The database does not care if you have sown any of the crops harvested on a specific field or if you have tagged the field (production) with the one you are harvesting here.</source>
-        <translation>Deve seleccionar pelo menos um destino de cultivo e a quantidade colhida deve ser &gt; 0.</translation>
+        <translation>Deve seleccionar pelo menos um destino de cultivo e a quantidade colhida deve ser &gt; 0.
+A base-de-dados não quer saber se semeou qualquer das culturas colhidas num terreno específico ou se marcou o terreno (produção) com o que está a colher aqui.</translation>
     </message>
     <message>
         <location filename="../../actionwizard.cpp" line="1050"/>
@@ -169,7 +170,7 @@ The database does not care if you have sown any of the crops harvested on a spec
     <message>
         <location filename="../../actionwizard.cpp" line="1062"/>
         <source>No help available.</source>
-        <translation>Ajuda indisponível.</translation>
+        <translation>Ajuda indisponìvel.</translation>
     </message>
 </context>
 <context>
@@ -177,7 +178,7 @@ The database does not care if you have sown any of the crops harvested on a spec
     <message>
         <location filename="../../actionwizardactnpage.ui" line="17"/>
         <source>Action</source>
-        <translation>Intervenção</translation>
+        <translation>Tarefa</translation>
     </message>
     <message>
         <location filename="../../actionwizardactnpage.ui" line="20"/>
@@ -207,7 +208,7 @@ The database does not care if you have sown any of the crops harvested on a spec
     <message>
         <location filename="../../actionwizardactnpage.ui" line="93"/>
         <source>Action Types</source>
-        <translation>Tipo de Intervenções</translation>
+        <translation>Tipos de Tarefa</translation>
     </message>
     <message>
         <location filename="../../actionwizardactnpage.ui" line="102"/>
@@ -217,7 +218,7 @@ The database does not care if you have sown any of the crops harvested on a spec
     <message>
         <location filename="../../actionwizardactnpage.ui" line="119"/>
         <source>Grassland Action</source>
-        <translation>Intervenção em Pasto</translation>
+        <translation>Tarefa num Pasto</translation>
     </message>
     <message>
         <location filename="../../actionwizardactnpage.ui" line="136"/>
@@ -227,7 +228,7 @@ The database does not care if you have sown any of the crops harvested on a spec
     <message>
         <location filename="../../actionwizardactnpage.ui" line="153"/>
         <source>Animal Action</source>
-        <translation>Intervenção Animal</translation>
+        <translation>Tarefa com Animal</translation>
     </message>
     <message>
         <location filename="../../actionwizardactnpage.ui" line="170"/>
@@ -252,7 +253,7 @@ The database does not care if you have sown any of the crops harvested on a spec
     <message>
         <location filename="../../actionwizardactnpage.ui" line="238"/>
         <source>Misc. Action</source>
-        <translation>Intervenções Diversas</translation>
+        <translation>Tarefas Diversas</translation>
     </message>
 </context>
 <context>
@@ -291,7 +292,7 @@ The database does not care if you have sown any of the crops harvested on a spec
     <message>
         <location filename="../../actionwizardanimpage.ui" line="17"/>
         <source>Animal Action</source>
-        <translation>Intervenção Animal</translation>
+        <translation>Tarefa com Animal</translation>
     </message>
     <message>
         <location filename="../../actionwizardanimpage.ui" line="20"/>
@@ -340,7 +341,7 @@ The database does not care if you have sown any of the crops harvested on a spec
     <message>
         <location filename="../../actionwizard.cpp" line="1586"/>
         <source>Seed (Cultivar)</source>
-        <translation>Semear </translation>
+        <translation>Semente (Variedade)</translation>
     </message>
     <message>
         <location filename="../../actionwizard.cpp" line="1587"/>
@@ -373,7 +374,7 @@ The database does not care if you have sown any of the crops harvested on a spec
     <message>
         <location filename="../../actionwizarddrilpage.ui" line="17"/>
         <source>Drilling&amp;Planting</source>
-        <translation>Lavrar&amp;Plantar</translation>
+        <translation>Semear&amp;Plantar</translation>
     </message>
     <message>
         <location filename="../../actionwizarddrilpage.ui" line="20"/>
@@ -408,7 +409,7 @@ The database does not care if you have sown any of the crops harvested on a spec
     <message>
         <location filename="../../actionwizard.cpp" line="1664"/>
         <source> Unit/%1</source>
-        <translation type="unfinished"></translation>
+        <translation> Unidade/%1</translation>
     </message>
     <message>
         <source> Unit/ha</source>
@@ -525,7 +526,7 @@ The database does not care if you have sown any of the crops harvested on a spec
     <message>
         <location filename="../../actionwizard.cpp" line="1736"/>
         <source> Unit/%1</source>
-        <translation type="unfinished"></translation>
+        <translation> Unidade/%1</translation>
     </message>
     <message>
         <source> Unit/ha</source>
@@ -585,7 +586,7 @@ The database does not care if you have sown any of the crops harvested on a spec
     <message>
         <location filename="../../actionwizard.cpp" line="1812"/>
         <source> Unit/%1</source>
-        <translation type="unfinished"></translation>
+        <translation> Unidade/%1</translation>
     </message>
     <message>
         <source> Unit/ha</source>
@@ -676,7 +677,7 @@ The database does not care if you have sown any of the crops harvested on a spec
     <message>
         <location filename="../../actionsviewmodel.cpp" line="39"/>
         <source>Action</source>
-        <translation>Intervenção</translation>
+        <translation>Tarefa</translation>
     </message>
     <message>
         <location filename="../../actionsviewmodel.cpp" line="39"/>
@@ -691,7 +692,7 @@ The database does not care if you have sown any of the crops harvested on a spec
     <message>
         <location filename="../../actionsviewmodel.cpp" line="278"/>
         <source>%1 %2 worked</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 %2 trabalhados</translation>
     </message>
     <message>
         <source>%1 ha worked</source>
@@ -759,7 +760,7 @@ The database does not care if you have sown any of the crops harvested on a spec
         <location filename="../../actionsviewwidget.ui" line="91"/>
         <location filename="../../actionsviewwidget.ui" line="94"/>
         <source>Drilling&amp;&amp;Planting</source>
-        <translation>Lavrar&amp;&amp;Plantar</translation>
+        <translation>Semear&amp;&amp;Plantar</translation>
     </message>
     <message>
         <location filename="../../actionsviewwidget.ui" line="109"/>
@@ -777,7 +778,7 @@ The database does not care if you have sown any of the crops harvested on a spec
         <location filename="../../actionsviewwidget.ui" line="145"/>
         <location filename="../../actionsviewwidget.ui" line="148"/>
         <source>Animal Action</source>
-        <translation>Intervenção Animal</translation>
+        <translation>Tarefa com Animal</translation>
     </message>
     <message>
         <location filename="../../actionsviewwidget.ui" line="163"/>
@@ -789,13 +790,13 @@ The database does not care if you have sown any of the crops harvested on a spec
         <location filename="../../actionsviewwidget.ui" line="181"/>
         <location filename="../../actionsviewwidget.ui" line="184"/>
         <source>Misc. Action</source>
-        <translation>Intervenções Diversas</translation>
+        <translation>Tarefas Diversas</translation>
     </message>
     <message>
         <location filename="../../actionsviewwidget.ui" line="193"/>
         <location filename="../../actionsviewwidget.ui" line="196"/>
         <source>Refresh</source>
-        <translation>Refescar</translation>
+        <translation>Actualizar</translation>
     </message>
 </context>
 <context>
@@ -881,7 +882,7 @@ The database does not care if you have sown any of the crops harvested on a spec
     <message>
         <location filename="../../basicdatadialog.cpp" line="163"/>
         <source>Cultivar</source>
-        <translation>Sementeira</translation>
+        <translation>Variedade</translation>
     </message>
     <message>
         <location filename="../../basicdatadialog.cpp" line="164"/>
@@ -1016,12 +1017,13 @@ The database does not care if you have sown any of the crops harvested on a spec
         <location filename="../../basicdatadialog.cpp" line="1033"/>
         <source>A crop abbreviation is optional. Each crop is linked to one or more usages e.g. a late and an early maturing potato. The &apos;Crop Use&apos; is linked to cultivars.
 Withdrawal is usually negative. In case of N fixation use positive figures. Nutrient withdrawal must be in %1/harvest unit!.</source>
-        <translation type="unfinished"></translation>
+        <translation>A descrição de uma cultura é opcional. Cada cultura está ligada a um ou mais usos ex. batata nova ou velha. O destino da cultura está ligado à sementeira.
+Retirar tem normalmente um valor negativo. No caso da fixação de N usar números positivos. Retirar nutrientes deve estar em %1/unidade de colheita!.</translation>
     </message>
     <message>
         <location filename="../../basicdatadialog.cpp" line="1042"/>
         <source>A fertilizer contains nutrients in %1/unit!. CuteFarm assume that the unit used here is the same unit used when fertilizers are applied in operations.</source>
-        <translation type="unfinished"></translation>
+        <translation>Um fertilizante contém nutrientes em %1/unidade!. O CuteFarm assumes que a unidade usada aqui é a mesma que é usada quando se aplicam fertilizantes em tarefas.</translation>
     </message>
     <message>
         <source>A crop abbreviation is optional. Each crop is linked to one or more usages e.g. a late and an early maturing potato. The &apos;Crop Use&apos; is linked to cultivars.
@@ -1068,7 +1070,7 @@ Retirar é normalmente negativo. No caso da fixação de N (azoto) usar números
 it is not possible to delete it.
 
 Delete &apos;%1&apos;?</source>
-        <translation>Se esta entrada está ligada por ex. a uma acção
+        <translation>Se esta entrada está ligada por ex. a uma tarefa
 não é possível apagá-la.
 
 Apagar &apos;%1&apos;?</translation>
@@ -1079,10 +1081,10 @@ Apagar &apos;%1&apos;?</translation>
 it is not possible to delete it.
 
 Delete selected rows?</source>
-        <translation>Se esta entrada está ligada por ex. a uma acção
+        <translation>Se esta entrada está ligada por ex. a uma tarefa
 não é possível apagá-la.
 
-Apagar as colunas seleccionadas?</translation>
+Apagar as linhas seleccionadas?</translation>
     </message>
     <message>
         <location filename="../../basicdatadialog.cpp" line="1392"/>
@@ -1109,7 +1111,7 @@ Apagar as colunas seleccionadas?</translation>
     <message>
         <location filename="../../basicdatadialog.ui" line="94"/>
         <source>Crops&amp;Cultivars</source>
-        <translation>Culturas&amp;Sementeiras</translation>
+        <translation>Culturas&amp;Variedades</translation>
     </message>
     <message>
         <location filename="../../basicdatadialog.ui" line="135"/>
@@ -1136,12 +1138,12 @@ Apagar as colunas seleccionadas?</translation>
     <message>
         <location filename="../../basicdatadialog.ui" line="329"/>
         <source>Delete Row</source>
-        <translation>Apagar Coluna</translation>
+        <translation>Apagar Linha</translation>
     </message>
     <message>
         <location filename="../../basicdatadialog.ui" line="355"/>
         <source>Deactivate Row</source>
-        <translation>Desactivar Coluna</translation>
+        <translation>Desactivar Linha</translation>
     </message>
     <message>
         <location filename="../../basicdatadialog.ui" line="402"/>
@@ -1156,7 +1158,7 @@ Apagar as colunas seleccionadas?</translation>
     <message>
         <location filename="../../basicdatadialog.ui" line="442"/>
         <source>Cultivars</source>
-        <translation>Sementeiras</translation>
+        <translation>Variedades</translation>
     </message>
     <message>
         <location filename="../../basicdatadialog.ui" line="482"/>
@@ -1232,7 +1234,7 @@ Apagar as colunas seleccionadas?</translation>
         <location filename="../../basicdatadialog.ui" line="782"/>
         <location filename="../../basicdatadialog.ui" line="785"/>
         <source>Add Cultivar</source>
-        <translation>Adicionar Sementeira</translation>
+        <translation>Adicionar Variedade</translation>
     </message>
     <message>
         <location filename="../../basicdatadialog.ui" line="793"/>
@@ -1288,7 +1290,7 @@ Apagar as colunas seleccionadas?</translation>
     <message>
         <location filename="../../cropusedialog.cpp" line="29"/>
         <source>Withdrawal %1/unit (use positve figures e.g. in case of N fixation)</source>
-        <translation type="unfinished"></translation>
+        <translation>Retirar %1/uniade (usar números positivos ex. no caso de fixação de N)</translation>
     </message>
 </context>
 <context>
@@ -1329,7 +1331,7 @@ Apagar as colunas seleccionadas?</translation>
     <message>
         <location filename="../../cultivardialog.ui" line="14"/>
         <source>Add Cultivar</source>
-        <translation>Adicionar Sementeira</translation>
+        <translation>Adicionar Variedade</translation>
     </message>
     <message>
         <location filename="../../cultivardialog.ui" line="39"/>
@@ -1377,17 +1379,17 @@ Apagar as colunas seleccionadas?</translation>
     <message>
         <location filename="../../farmdatadialog.cpp" line="50"/>
         <source>Worker Units/%1:</source>
-        <translation type="unfinished"></translation>
+        <translation>Unidades Trabalhador/%1:</translation>
     </message>
     <message>
         <location filename="../../farmdatadialog.cpp" line="51"/>
         <source>Animal Units/%1:</source>
-        <translation type="unfinished"></translation>
+        <translation>Unidades Animais/%1:</translation>
     </message>
     <message>
         <location filename="../../farmdatadialog.cpp" line="151"/>
         <source>My Name</source>
-        <translation>O Meu Nome</translation>
+        <translation>Nome</translation>
     </message>
     <message>
         <location filename="../../farmdatadialog.cpp" line="152"/>
@@ -1490,14 +1492,13 @@ Apagar as colunas seleccionadas?</translation>
         <location filename="../../farmdatadialog.cpp" line="295"/>
         <source>District</source>
         <comment>the German term is &apos;Gemarkung&apos;</comment>
-        <translation>Distrito</translation>
+        <translation>Região</translation>
     </message>
     <message>
         <location filename="../../farmdatadialog.cpp" line="296"/>
         <source>Block</source>
         <comment>the German term is &apos;Flur&apos;</comment>
-        <translatorcomment>corredor, fila, parcela.</translatorcomment>
-        <translation>Corredor</translation>
+        <translation>Parcela</translation>
     </message>
     <message>
         <location filename="../../farmdatadialog.cpp" line="297"/>
@@ -1571,12 +1572,12 @@ Apagar as colunas seleccionadas?</translation>
     <message>
         <location filename="../../farmdatadialog.cpp" line="567"/>
         <source>Add Operation</source>
-        <translation>Adicionar Intervenção</translation>
+        <translation>Adicionar Operação</translation>
     </message>
     <message>
         <location filename="../../farmdatadialog.cpp" line="668"/>
         <source>At least one lot is required.</source>
-        <translation>É preciso pelo menos um lote.</translation>
+        <translation>É preciso pelo menos uma parcela.</translation>
     </message>
     <message>
         <location filename="../../farmdatadialog.cpp" line="774"/>
@@ -1609,7 +1610,7 @@ Apagar as colunas seleccionadas?</translation>
         <location filename="../../farmdatadialog.cpp" line="1164"/>
         <source>Lots and Fields have a different total size.
 Continue anyway?</source>
-        <translation>Lotes e Terrenos têm um tamanho total diferente.
+        <translation>Lotess e Terrenos têm um tamanho total diferente.
 Continuar na mesma?</translation>
     </message>
     <message>
@@ -1642,7 +1643,7 @@ Continuar na mesma?</translation>
         <source>By default the following steps are necessary: Create a lot, create a field, allocate area from the lot to the field. And finally assign a production (crop use) to the field.
 If you are not interested in managing your farmland in such detail you can tick the option &apos;No Lots&apos; in the settings dialog. By default lots are disabled.</source>
         <translation>Por defeito são necessários os seguintes passos: Criar um lote, criar um terreno, alocar a área do lote ao terreno. Finalmente alocar uma produção (destino do cultivo) ao terreno.
-Se não está interessado em gerir o seu terreno arável com tanto pormenor pode marcar a opção &apos;Sem Lotes&apos; no diálogo de definições. Os lotes estão desactivados por defeito.</translation>
+Se não está interessado em gerir o seu terreno arável com tanto pormenor pode marcar a opção &apos;Sem Lotes&apos; no diálogo de definições. Os lotes estão desactivadas por defeito.</translation>
     </message>
     <message>
         <location filename="../../farmdatadialog.cpp" line="1651"/>
@@ -1657,7 +1658,7 @@ Se não está interessado em gerir o seu terreno arável com tanto pormenor pode
     <message>
         <location filename="../../farmdatadialog.cpp" line="1657"/>
         <source>In order to add actions you need to specify a production for each field and harvest year.</source>
-        <translation>Para adicionar intervenções precisa especificar uma produção para cada terreno e ano de colheita.</translation>
+        <translation>Para adicionar tarefas precisa especificar uma produção para cada terreno e ano de colheita.</translation>
     </message>
     <message>
         <location filename="../../farmdatadialog.cpp" line="1663"/>
@@ -1671,7 +1672,7 @@ Se não está interessado em gerir o seu terreno arável com tanto pormenor pode
 it is not possible to delete it.
 
 Delete &apos;%1&apos;?</source>
-        <translation>Se esta entrada está ligada por ex. a uma intervenção
+        <translation>Se esta entrada está ligada por ex. a uma tarefa
 não é possível apagá-la.
 
 Apagar &apos;%1&apos;?</translation>
@@ -1721,12 +1722,12 @@ já está a ser usado.</translation>
     <message>
         <location filename="../../farmdatadialog.ui" line="288"/>
         <source>Delete current row</source>
-        <translation>Apagar coluna actual</translation>
+        <translation>Apagar linha corrente</translation>
     </message>
     <message>
         <location filename="../../farmdatadialog.ui" line="317"/>
         <source>Deactivate current row</source>
-        <translation>Desactivar coluna actual</translation>
+        <translation>Desactivar linha corrente</translation>
     </message>
     <message>
         <location filename="../../farmdatadialog.ui" line="343"/>
@@ -1814,7 +1815,7 @@ já está a ser usado.</translation>
         <location filename="../../farmdatadialog.ui" line="702"/>
         <location filename="../../farmdatadialog.ui" line="705"/>
         <source>Add Operation</source>
-        <translation>Adicionar Intervenção</translation>
+        <translation>Adicionar Operação</translation>
     </message>
     <message>
         <location filename="../../farmdatadialog.ui" line="717"/>
@@ -1870,7 +1871,7 @@ já está a ser usado.</translation>
     <message>
         <location filename="../../fertdialog.cpp" line="54"/>
         <source>Contents %1/unit (use negative figures e.g.in case of CaO/Humus withdrawal)</source>
-        <translation type="unfinished"></translation>
+        <translation>Conteúdo %1/unidade (usar números negativos ex. no caso de retirar CaO/Húmus)</translation>
     </message>
 </context>
 <context>
@@ -1906,7 +1907,7 @@ já está a ser usado.</translation>
     <message>
         <location filename="../../fieldviewwidget.cpp" line="33"/>
         <source>Nutrient Balance %1/%2</source>
-        <translation type="unfinished"></translation>
+        <translation>Balanço de Nutrientes %1/%2</translation>
     </message>
     <message>
         <location filename="../../fieldviewwidget.cpp" line="103"/>
@@ -1948,7 +1949,7 @@ já está a ser usado.</translation>
     <message>
         <location filename="../../fieldviewwidget.cpp" line="106"/>
         <source>Crop Use (Cultivar)</source>
-        <translation>Destino da Cultura (Sementeira)</translation>
+        <translation>Destino da Cultura (Variedade)</translation>
     </message>
     <message>
         <location filename="../../fieldviewwidget.cpp" line="107"/>
@@ -2050,7 +2051,7 @@ já está a ser usado.</translation>
     <message>
         <location filename="../../fieldviewwidget.ui" line="111"/>
         <source>Lots</source>
-        <translation>Lotes</translation>
+        <translation>Parcelas</translation>
     </message>
     <message>
         <location filename="../../fieldviewwidget.ui" line="127"/>
@@ -2085,7 +2086,7 @@ já está a ser usado.</translation>
     <message>
         <location filename="../../fieldviewwidget.ui" line="267"/>
         <source>Drilling&amp;Planting</source>
-        <translation>Lavrar&amp;Plantar</translation>
+        <translation>Semear&amp;Plantar</translation>
     </message>
     <message>
         <location filename="../../fieldviewwidget.ui" line="306"/>
@@ -2105,7 +2106,7 @@ já está a ser usado.</translation>
     <message>
         <location filename="../../fieldviewwidget.ui" line="423"/>
         <source>Animal Action</source>
-        <translation>Intervenção Animal</translation>
+        <translation>Tarefa com Animal</translation>
     </message>
     <message>
         <location filename="../../fieldviewwidget.ui" line="462"/>
@@ -2115,7 +2116,7 @@ já está a ser usado.</translation>
     <message>
         <location filename="../../fieldviewwidget.ui" line="501"/>
         <source>Misc. Action</source>
-        <translation>Intervenções Diversas</translation>
+        <translation>Tarefas Diversas</translation>
     </message>
     <message>
         <location filename="../../fieldviewwidget.ui" line="554"/>
@@ -2235,12 +2236,12 @@ já está a ser usado.</translation>
     <message>
         <location filename="../../lotdialog.ui" line="39"/>
         <source>District:</source>
-        <translation>Distrito:</translation>
+        <translation>Região:</translation>
     </message>
     <message>
         <location filename="../../lotdialog.ui" line="52"/>
         <source>Block:</source>
-        <translation>Bloco:</translation>
+        <translation>Parcela:</translation>
     </message>
     <message>
         <location filename="../../lotdialog.ui" line="65"/>
@@ -2260,7 +2261,7 @@ já está a ser usado.</translation>
     <message>
         <location filename="../../lotdialog.ui" line="129"/>
         <source>Lot Sub No.:</source>
-        <translation>Sub Lote Nº:</translation>
+        <translation>Sub-Lote Nº:</translation>
     </message>
 </context>
 <context>
@@ -2301,12 +2302,12 @@ já está a ser usado.</translation>
     <message>
         <location filename="../../lotxfilddialog.ui" line="88"/>
         <source>District:</source>
-        <translation>Distrito:</translation>
+        <translation>Região:</translation>
     </message>
     <message>
         <location filename="../../lotxfilddialog.ui" line="105"/>
         <source>Block:</source>
-        <translation>Bloco:</translation>
+        <translation>Parcela:</translation>
     </message>
 </context>
 <context>
@@ -2339,7 +2340,7 @@ já está a ser usado.</translation>
     <message>
         <location filename="../../mainwindow.cpp" line="537"/>
         <source>Actions:</source>
-        <translation>Intervenções:</translation>
+        <translation>Tarefas:</translation>
     </message>
     <message>
         <location filename="../../mainwindow.cpp" line="671"/>
@@ -2411,13 +2412,13 @@ já está a ser usado.</translation>
         <location filename="../../mainwindow.ui" line="190"/>
         <location filename="../../mainwindow.ui" line="193"/>
         <source>Add Action...</source>
-        <translation>Adicionar Intervenção...</translation>
+        <translation>Adicionar Tarefa...</translation>
     </message>
     <message>
         <location filename="../../mainwindow.ui" line="205"/>
         <location filename="../../mainwindow.ui" line="208"/>
         <source>Delete Action...</source>
-        <translation>Apagar intervenção...</translation>
+        <translation>Apagar tarefa...</translation>
     </message>
     <message>
         <location filename="../../mainwindow.ui" line="217"/>
@@ -2459,13 +2460,13 @@ já está a ser usado.</translation>
         <location filename="../../mainwindow.ui" line="310"/>
         <location filename="../../mainwindow.ui" line="313"/>
         <source>Filter Actions...</source>
-        <translation>Acções de Filtragem...</translation>
+        <translation>Filtrar Tarefas...</translation>
     </message>
     <message>
         <location filename="../../mainwindow.ui" line="325"/>
         <location filename="../../mainwindow.ui" line="328"/>
         <source>Edit Action...</source>
-        <translation>Editar Intervenção...</translation>
+        <translation>Editar Tarefa...</translation>
     </message>
     <message>
         <location filename="../../mainwindow.ui" line="340"/>
@@ -2481,7 +2482,7 @@ já está a ser usado.</translation>
         <location filename="../../mainwindow.ui" line="355"/>
         <location filename="../../mainwindow.ui" line="358"/>
         <source>Copy Action...</source>
-        <translation>Copiar Intervenção...</translation>
+        <translation>Copiar Tarefa...</translation>
     </message>
     <message>
         <location filename="../../mainwindow.ui" line="367"/>
@@ -2496,12 +2497,12 @@ já está a ser usado.</translation>
     <message>
         <location filename="../../mainwindow.ui" line="385"/>
         <source>Action</source>
-        <translation>Intervenção</translation>
+        <translation>Tarefa</translation>
     </message>
     <message>
         <location filename="../../mainwindow.ui" line="388"/>
         <source>Action View</source>
-        <translation>Ver Intervenção</translation>
+        <translation>Vista de Tarefas</translation>
     </message>
     <message>
         <location filename="../../mainwindow.ui" line="400"/>
@@ -2963,9 +2964,9 @@ Erro: %2</translation>
         <source>I don&apos;t need lots.
 Hides all lot widgets and automatically adds a dummy lot of the same size and connects it to the field when a new field is added.
 If you delete a field all now unallocated lots will  be deleted automatically!</source>
-        <translation>Não preciso de lotes.
-Esconde todos widgets de lotes e adiciona automáticamente um falso lote do mesmo tamanho e liga-o ao terreno quando um novo terreno é adicionado.
-Se apagar um terreno todos os lotes agora não alocados serão apagados automáticamente!</translation>
+        <translation>Não preciso de parcelas.
+Esconde todos widgets de parcelas e adiciona automáticamente uma falsa parcela do mesmo tamanho e liga-a ao terreno quando um novo terreno é adicionado.
+Se apagar um terreno todas as parcelas agora não alocadas serão apagadas automáticamente!</translation>
     </message>
     <message>
         <location filename="../../settingsdialog.cpp" line="179"/>
@@ -2993,7 +2994,7 @@ Se apagar um terreno todos os lotes agora não alocados serão apagados automát
     <message>
         <location filename="../../settingsdialog.ui" line="52"/>
         <source>Alter row colors.</source>
-        <translation>Mudar cores da colunas.</translation>
+        <translation>Mudar cores da linhas.</translation>
     </message>
     <message>
         <location filename="../../settingsdialog.ui" line="59"/>
@@ -3043,17 +3044,17 @@ Se apagar um terreno todos os lotes agora não alocados serão apagados automát
     <message>
         <location filename="../../settingsdialog.ui" line="248"/>
         <source>Units (application restart required)</source>
-        <translation type="unfinished"></translation>
+        <translation>Unidades (requer re-inicializar a aplicação)</translation>
     </message>
     <message>
         <location filename="../../settingsdialog.ui" line="267"/>
         <source>Area:</source>
-        <translation type="unfinished">Área:</translation>
+        <translation>Área:</translation>
     </message>
     <message>
         <location filename="../../settingsdialog.ui" line="274"/>
         <source>Nutrients:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nutrientes:</translation>
     </message>
 </context>
 <context>

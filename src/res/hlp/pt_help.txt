@@ -1,0 +1,40 @@
+Início
+
+Antes que possa começar a adicionar tarefas pelo menos os seguintes recursos devem estar disponíveis na base-de-dados:
+
+    * Culturas, destino das culturas e sementeiras
+    * Lotes (opcional), terrenos e produção por terreno
+    * Trabalhadores
+    * Operações
+
+Administração da Terra
+
+Adicionar Terrenos
+
+Você deve etiquetar cada terreno com um nome de quinta. Normalmente só introduz uma vez a abreviação para a sua quinta. Esta opção permite gerir a sua exploração a partir de diferentes quintas numa única base-de-dados. O nome e número devem ser únicos.
+
+Adicionando Lotes
+
+Se não usa a opção 'Sem Lotes' em 'Definições/Diversos' terá de adicionar lotes primeiro e mais tarde alocar a área dos lotes aos terrenos. A região e parcela poderão ser um má tradução do Alemão 'Gemarkung' e 'Flur'. São usados como identificadores de topo para identificar lotes (um 'Gemarkung' contém muitos 'Flur'. Um 'Flur' contém muitas lotes). De qualquer maneira são opcionais. Mas deve fornecer um único número de lote e provávelmente um sub-número de lote.
+
+Glossário
+
+Operação
+
+Uma máquina, combinação de máquinas ou qualquer outra tarefa periódicamente documentada.
+
+Tarefa
+
+Uma actividade com uma determinada data, um trabalhador e recursos alocados como sementes, fertilizante etc.
+
+Tipo de Tarefa
+
+Apenas ajuda a agrupar os recursos utilizados. Facilita adicionar e encontrar Tarefas. A base-de-dados não detecta se estiver a tentar adicionar tarefas 'disparatadas' ex. lavrar com uma ceifeira-debulhadora.
+
+FAQ (Perguntas Frequentes)
+
+    *
+      Não posso mudar a área alocada num terreno específico: Mensagem 'Constraint failed'.
+
+      Se já tinha adicionado tarefas para este terreno (e ano de colheita) não pode reduzir o tamanho do terreno abaixo da área máxima que introduziu para este terreno em 'Tarefas'.
+

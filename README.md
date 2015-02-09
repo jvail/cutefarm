@@ -5,14 +5,15 @@ _Unmaintained. Since it was initially a way to learn Qt/C++ some parts are of po
 
 Translations
 ------------
-  - English   (GUI + Data)
-  - Finnish   (GUI)
-  - French    (GUI + Data)
-  - German    (GUI + Data)
-  - Polish    (GUI incomplete)
-  - Turkish   (GUI)
-  - Italian   (GUI incomplete)
-  - Russian   (GUI)
+  - English     (gui + data)
+  - Finnish     (gui)
+  - French      (gui + data)
+  - German      (gui + data)
+  - Polish      (gui incomplete)
+  - Turkish     (gui)
+  - Italian     (gui incomplete)
+  - Russian     (gui)
+  - Portuguese  (gui + data)
     
 Credits
 -------
@@ -20,6 +21,7 @@ Credits
 - Turkish translation by Onur Çelikörs
 - Italian translation by Eugenio Fasser
 - Russian translation by Grigorij Pilipenko
+- Portuguese translation by António Correia
 
 Tulliana 2.0 iconset by M.Umut Pulat and 'Ladybug' by Ganzio Design
 
