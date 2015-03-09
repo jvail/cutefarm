@@ -1,3 +1,6 @@
 .*
 tmp/
 bin/
+ui_*
+*.user
+Makefile
