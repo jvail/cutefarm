@@ -65,9 +65,6 @@ int main(int argc, char **argv)
 	splash.show();
 	splash.showMessage("CuteFarm i18n...", Qt::AlignLeft, QColor(148, 0, 0));
 
-  if (!QFile::exists(QDesktopServices::storageLocation(QDesktopServices::DataLocation)))
-    QDir::mkpath(QDesktopServices::storageLocation(QDesktopServices::DataLocation));
-
 //#ifdef Q_WS_MAC
 //    QDir path = QDir::homePath() + "/Library/Application Support/";
 //    if (!path.exists("CuteFarm"))

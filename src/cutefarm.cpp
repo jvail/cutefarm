@@ -185,10 +185,10 @@ void CuteFarm::createDataDir() {
     QDir dir;
 
     if (!dir.exists(cuteFarmDir))
-        dir.mkdir(cuteFarmDir);
+        dir.mkpath(cuteFarmDir);
 
     if (!dir.exists(reportsDir))
-        dir.mkdir(reportsDir);
+        dir.mkpath(reportsDir);
 }
 
 QString CuteFarm::reportsDirPath() {
